@@ -1,12 +1,15 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Eric & Taylor | June 12, 2027</title>
-    <meta name="description" content="Join Eric and Taylor as they celebrate their wedding on June 12, 2027, in Edmonton, Alberta.">
+
+    <meta name="description"
+        content="Join Eric and Taylor as they celebrate their wedding on June 12, 2027 in Edmonton, Alberta.">
 
     <link rel="stylesheet" href="style.css">
 
@@ -18,33 +21,34 @@
 
 <body>
 
-    <!-- Navigation -->
+    <!-- NAVIGATION -->
+
     <nav class="navbar">
         <a href="#home" class="logo">E <span>&</span> T</a>
 
         <div class="nav-links">
             <a href="#story">OUR STORY</a>
             <a href="#details">THE WEDDING</a>
+            <a href="#gallery">GALLERY</a>
             <a href="#rsvp">RSVP</a>
         </div>
     </nav>
 
 
-    <!-- Hero Section -->
+    <!-- HERO -->
+
     <section class="hero" id="home">
 
-        <video class="background-video" autoplay muted loop playsinline poster="media/hero.jpg">
-            <source src="media/hero.mp4" type="video/mp4">
-        </video>
-
+        <div class="hero-image"></div>
         <div class="overlay"></div>
 
         <div class="hero-content">
+
             <p class="eyebrow">THE BEGINNING OF FOREVER</p>
 
             <h1>Eric <span>&</span> Taylor</h1>
 
-            <div class="hero-divider"></div>
+            <div class="divider"></div>
 
             <p class="wedding-date">JUNE 12, 2027</p>
 
@@ -52,12 +56,14 @@
                 DISCOVER OUR STORY
                 <span>↓</span>
             </a>
+
         </div>
 
     </section>
 
 
-    <!-- Introduction -->
+    <!-- INTRODUCTION -->
+
     <section class="intro section-padding">
 
         <p class="eyebrow">A DAY TO REMEMBER</p>
@@ -65,8 +71,10 @@
         <h2>Two hearts.<br>One beautiful story.</h2>
 
         <p class="intro-text">
-            We are so excited to celebrate this special chapter
-            of our lives with the people who mean the most to us.
+            We are so excited to celebrate this special
+            chapter of our lives with the people who mean
+            the most to us.
+
             We cannot wait to share this day with you.
         </p>
 
@@ -75,25 +83,50 @@
     </section>
 
 
-    <!-- Our Story -->
-    <section class="media-section" id="story">
+    <!-- OUR STORY -->
 
-        <video class="background-video" autoplay muted loop playsinline poster="media/story.jpg">
-            <source src="media/story.mp4" type="video/mp4">
-        </video>
+    <section class="story-section" id="story">
 
-        <div class="overlay"></div>
+        <div class="story-image">
+            <img src="media/story-1.jpg" alt="Eric and Taylor together">
+        </div>
 
-        <div class="section-content">
+        <div class="story-content reveal">
+
             <p class="eyebrow">OUR STORY</p>
+
             <h2>It was always you.</h2>
-            <p>And now, forever begins.</p>
+
+            <p>
+                Every moment, every memory, and every
+                adventure has brought us here.
+
+                And now, forever begins.
+            </p>
+
         </div>
 
     </section>
 
 
-    <!-- Countdown -->
+    <!-- STORY PHOTO -->
+
+    <section class="photo-section">
+
+        <img
+            src="media/story-2.jpg"
+            alt="A special memory"
+            class="full-photo">
+
+        <div class="photo-caption">
+            <p>ALL THE LITTLE MOMENTS</p>
+        </div>
+
+    </section>
+
+
+    <!-- COUNTDOWN -->
+
     <section class="countdown-section section-padding">
 
         <p class="eyebrow">COUNTING DOWN TO FOREVER</p>
@@ -127,49 +160,68 @@
     </section>
 
 
-    <!-- Wedding Celebration -->
-    <section class="media-section" id="details">
+    <!-- CELEBRATION IMAGE -->
 
-        <video class="background-video" autoplay muted loop playsinline poster="media/celebration.jpg">
-            <source src="media/celebration.mp4" type="video/mp4">
-        </video>
+    <section class="celebration-section">
 
-        <div class="overlay"></div>
+        <img
+            src="media/celebration.jpg"
+            alt="Wedding celebration"
+            class="full-photo">
 
-        <div class="section-content">
+        <div class="celebration-overlay">
+
             <p class="eyebrow">JOIN US IN CELEBRATION</p>
+
             <h2>Our Wedding Day</h2>
+
             <p>Saturday, June 12, 2027</p>
+
         </div>
 
     </section>
 
 
-    <!-- Event Details -->
-    <section class="details-section section-padding">
+    <!-- WEDDING DETAILS -->
+
+    <section class="details-section section-padding" id="details">
 
         <p class="eyebrow">THE DETAILS</p>
+
         <h2>Celebrate with us</h2>
 
         <div class="details-grid">
 
-            <div class="detail-card">
+            <div class="detail-card reveal">
+
                 <span class="detail-number">01</span>
+
                 <h3>The Ceremony</h3>
+
                 <p>2:00 PM</p>
-                <p>June 12, 2027</p>
+
+                <p>Saturday, June 12, 2027</p>
+
             </div>
 
-            <div class="detail-card">
+
+            <div class="detail-card reveal">
+
                 <span class="detail-number">02</span>
+
                 <h3>The Reception</h3>
+
                 <p>5:00 PM</p>
-                <p>June 12, 2027</p>
+
+                <p>Saturday, June 12, 2027</p>
+
             </div>
 
         </div>
 
+
         <div class="venue">
+
             <h3>The Butternut Tree</h3>
 
             <p>
@@ -182,17 +234,42 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-link">
+
                 VIEW DIRECTIONS ↗
+
             </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHOTO GALLERY -->
+
+    <section class="gallery-section section-padding" id="gallery">
+
+        <p class="eyebrow">A FEW OF OUR FAVOURITE MOMENTS</p>
+
+        <h2>Our Memories</h2>
+
+        <div class="gallery">
+
+            <img src="media/gallery-1.jpg" alt="Eric and Taylor memory 1">
+
+            <img src="media/gallery-2.jpg" alt="Eric and Taylor memory 2">
+
+            <img src="media/gallery-3.jpg" alt="Eric and Taylor memory 3">
+
         </div>
 
     </section>
 
 
     <!-- RSVP -->
+
     <section class="rsvp-section" id="rsvp">
 
-        <div class="rsvp-content">
+        <div class="rsvp-content reveal">
 
             <p class="eyebrow">WE HOPE TO SEE YOU THERE</p>
 
@@ -200,13 +277,17 @@
 
             <p>
                 Your presence would mean the world to us.
+
                 Please let us know if you can join us
                 for our special day.
             </p>
 
-            <a href="https://tayloranderic2027wedding.com"
-               class="rsvp-button">
+            <a
+                href="https://tayloranderic2027wedding.com"
+                class="rsvp-button">
+
                 RSVP HERE
+
             </a>
 
             <p class="rsvp-note">
@@ -218,7 +299,8 @@
     </section>
 
 
-    <!-- Footer -->
+    <!-- FOOTER -->
+
     <footer>
 
         <h2>Eric <span>&</span> Taylor</h2>
@@ -229,6 +311,10 @@
             Made with love. Celebrated forever.
         </p>
 
+        <a href="#home" class="back-to-top">
+            BACK TO TOP ↑
+        </a>
+
     </footer>
 
 
@@ -236,4 +322,3 @@
 
 </body>
 </html>
-
