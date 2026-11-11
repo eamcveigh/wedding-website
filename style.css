@@ -4,10 +4,10 @@
 ================================= */
 
 :root {
-    --ivory: #f7f4ee;
-    --champagne: #c8b89d;
-    --charcoal: #292722;
-    --muted: #827c70;
+    --ivory: #F8F3E7;
+    --champagne: #F7C8C8;
+    --charcoal: #556B4F;
+    --muted: #A7B89F;
 }
 
 * {
@@ -120,6 +120,14 @@ section {
     to {
         transform: scale(1.02);
     }
+   
+@media (max-width: 650px) {
+    .hero-image {
+        animation: none;
+        transform: none;
+        background-position: center center;
+    }
+}
 }
 
 .overlay {
