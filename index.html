@@ -4,46 +4,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Site</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
+    <title>Eric & Taylor | June 12, 2027</title>
+    <meta name="description" content="Join Eric and Taylor as they celebrate their wedding on June 12, 2027, in Edmonton, Alberta.">
 
-        .container {
-            padding: 40px;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        h1 {
-            font-size: 36px;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        p {
-            font-size: 18px;
-        }
-
-        .status {
-            color: #888;
-            font-size: 14px;
-            margin-top: 25px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Welcome to My Site!</h1>
-        <p>Thanks for stopping by.</p>
-        <p class="status">🚧 Wedding In Progress 🚧</p>
-    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">E <span>&</span> T</a>
+
+        <div class="nav-links">
+            <a href="#story">OUR STORY</a>
+            <a href="#details">THE WEDDING</a>
+            <a href="#rsvp">RSVP</a>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <video class="background-video" autoplay muted loop playsinline poster="media/hero.jpg">
+            <source src="media/hero.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <p class="eyebrow">THE BEGINNING OF FOREVER</p>
+
+            <h1>Eric <span>&</span> Taylor</h1>
+
+            <div class="hero-divider"></div>
+
+            <p class="wedding-date">JUNE 12, 2027</p>
+
+            <a href="#story" class="scroll-link">
+                DISCOVER OUR STORY
+                <span>↓</span>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="intro section-padding">
+
+        <p class="eyebrow">A DAY TO REMEMBER</p>
+
+        <h2>Two hearts.<br>One beautiful story.</h2>
+
+        <p class="intro-text">
+            We are so excited to celebrate this special chapter
+            of our lives with the people who mean the most to us.
+            We cannot wait to share this day with you.
+        </p>
+
+        <p class="signature">With love, Eric & Taylor</p>
+
+    </section>
+
+
+    <!-- Our Story -->
+    <section class="media-section" id="story">
+
+        <video class="background-video" autoplay muted loop playsinline poster="media/story.jpg">
+            <source src="media/story.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="section-content">
+            <p class="eyebrow">OUR STORY</p>
+            <h2>It was always you.</h2>
+            <p>And now, forever begins.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Countdown -->
+    <section class="countdown-section section-padding">
+
+        <p class="eyebrow">COUNTING DOWN TO FOREVER</p>
+
+        <h2>Until we say I do</h2>
+
+        <div class="countdown" id="countdown">
+
+            <div class="time-unit">
+                <span id="days">000</span>
+                <small>DAYS</small>
+            </div>
+
+            <div class="time-unit">
+                <span id="hours">00</span>
+                <small>HOURS</small>
+            </div>
+
+            <div class="time-unit">
+                <span id="minutes">00</span>
+                <small>MINUTES</small>
+            </div>
+
+            <div class="time-unit">
+                <span id="seconds">00</span>
+                <small>SECONDS</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Wedding Celebration -->
+    <section class="media-section" id="details">
+
+        <video class="background-video" autoplay muted loop playsinline poster="media/celebration.jpg">
+            <source src="media/celebration.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="section-content">
+            <p class="eyebrow">JOIN US IN CELEBRATION</p>
+            <h2>Our Wedding Day</h2>
+            <p>Saturday, June 12, 2027</p>
+        </div>
+
+    </section>
+
+
+    <!-- Event Details -->
+    <section class="details-section section-padding">
+
+        <p class="eyebrow">THE DETAILS</p>
+        <h2>Celebrate with us</h2>
+
+        <div class="details-grid">
+
+            <div class="detail-card">
+                <span class="detail-number">01</span>
+                <h3>The Ceremony</h3>
+                <p>2:00 PM</p>
+                <p>June 12, 2027</p>
+            </div>
+
+            <div class="detail-card">
+                <span class="detail-number">02</span>
+                <h3>The Reception</h3>
+                <p>5:00 PM</p>
+                <p>June 12, 2027</p>
+            </div>
+
+        </div>
+
+        <div class="venue">
+            <h3>The Butternut Tree</h3>
+
+            <p>
+                9707 110 Street NW, #101<br>
+                Edmonton, AB T5K 2L9
+            </p>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=The+Butternut+Tree+Edmonton+Alberta"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-link">
+                VIEW DIRECTIONS ↗
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- RSVP -->
+    <section class="rsvp-section" id="rsvp">
+
+        <div class="rsvp-content">
+
+            <p class="eyebrow">WE HOPE TO SEE YOU THERE</p>
+
+            <h2>Be our guest.</h2>
+
+            <p>
+                Your presence would mean the world to us.
+                Please let us know if you can join us
+                for our special day.
+            </p>
+
+            <a href="https://tayloranderic2027wedding.com"
+               class="rsvp-button">
+                RSVP HERE
+            </a>
+
+            <p class="rsvp-note">
+                Kindly respond by your invitation's RSVP deadline.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>Eric <span>&</span> Taylor</h2>
+
+        <p>JUNE 12, 2027</p>
+
+        <p class="footer-note">
+            Made with love. Celebrated forever.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+
